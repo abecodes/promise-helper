@@ -1,0 +1,39 @@
+{
+	"name": "@abecodes/promise-helper",
+	"version": "1.0.0",
+	"description": "A useful, zero dependencies toolbox to handle different situations like trigerring sequential Promises, a sequence with pause in between, parallel execution and limited parallel execution",
+	"main": "index.js",
+	"scripts": {
+		"test": "nyc --cache --reporter=text-summary --reporter=html mocha -R tap -R nyan ./**/**/__tests__/*.test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "abecodes/promise-helper"
+	},
+	"keywords": [
+		"promise",
+		"cancel",
+		"cancelable",
+		"abort",
+		"callback",
+		"timeout",
+		"sleep",
+		"sequence",
+		"parallel",
+		"limit",
+		"task",
+		"queue",
+		"async",
+		"await",
+		"chain",
+		"vanilla",
+		"zero dependencies"
+	],
+	"author": "abe.codes <me@abe.codes> (http://abe.codes/)",
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^6.2.0",
+		"nyc": "^14.1.1"
+	}
+}
